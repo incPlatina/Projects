@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">wear</string>
+
+    <string name="hello_world">Hello Square World!</string>
+
+
+    <string-array name="Emails">
+        <item>a@a.ru</item>
+        <item>b@mail.ru</item>
+        <item>c@mail.com</item>
+        <item>itkachenko@mail.com</item>
+        <item>yandex@yandex.ru</item>
+    </string-array>
+    <string-array name="Passwords">
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+        <item>ivan</item>
+        <item>yandex</item>
+    </string-array>
+    <string name="title_activity_main">MainActivity</string>
+</resources>

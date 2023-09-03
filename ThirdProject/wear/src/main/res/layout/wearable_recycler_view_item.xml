@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.wear.widget.BoxInsetLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".MainActivity"
+    tools:deviceIds="wear">
+
+
+    android:layout_centerVertical="true"
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/inner_frame_layout_padding"
+        app:layout_boxedEdges="all">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/inner_frame_layout_padding">
+
+            <TextView
+                android:id="@+id/textViewName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="town"
+                android:textAllCaps="false"
+                android:textColor="#FFFF" />
+
+            <TextView
+            android:id="@+id/textViewCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="country" />
+        </LinearLayout>
+
+    </FrameLayout>
+</androidx.wear.widget.BoxInsetLayout>-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/menu_container"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:paddingBottom="5dp"
+android:paddingTop="5dp">
+
+<TextView
+    android:id="@+id/textViewName"
+    android:layout_width="wrap_content"
+    android:layout_height="35dp"
+    android:layout_centerVertical="true"
+    android:text="Menu Item"
+    android:textColor="#000000"
+    android:textSize="24sp"
+    tools:ignore="HardcodedText" />
+</RelativeLayout>
