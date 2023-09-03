@@ -1,0 +1,3 @@
+﻿  lab3.cpp
+C:\Users\sgraf\source\repos\lutay\lab3\lab3.cpp(125,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  lab3.vcxproj -> C:\Users\sgraf\source\repos\lutay\Debug\lab3.exe
