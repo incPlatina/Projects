@@ -1,0 +1,8 @@
+﻿  GameObject.cpp
+  Scrolling shooter.cpp
+C:\Users\sgraf\source\repos\Scrolling shooter\Scrolling shooter\Game.cpp(16,19): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\sgraf\source\repos\Scrolling shooter\Scrolling shooter\Game.cpp(91,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\sgraf\source\repos\Scrolling shooter\Scrolling shooter\Game.cpp(95,31): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\sgraf\source\repos\Scrolling shooter\Scrolling shooter\Game.cpp(110,27): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода...
+  Scrolling shooter.vcxproj -> C:\Users\sgraf\source\repos\Scrolling shooter\Debug\Scrolling shooter.exe
