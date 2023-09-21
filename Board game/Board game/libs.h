@@ -9,4 +9,4 @@ using namespace std;
 
 //  онстанты дл€ размера доски и количества бонусов
 const int BOARD_SIZE = 50;
-const int BONUS_COUNT = 15;
+const int BONUS_COUNT = 10;

@@ -1,4 +1,7 @@
-﻿  Board.cpp
+﻿  Board game.cpp
+C:\Projects\Projects\Board game\Board game\Board game.cpp(8,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Projects\Projects\Board game\Board game\Board game.cpp(38,27): warning C4018: <: несоответствие типов со знаком и без знака
+  Board.cpp
   Character.cpp
   Создание кода...
-  Board game.vcxproj -> C:\Users\sgraf\source\repos\Board game\Debug\Board game.exe
+  Board game.vcxproj -> C:\Projects\Projects\Board game\Debug\Board game.exe

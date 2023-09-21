@@ -2,16 +2,13 @@
 // Есть бонусы: телепортация, повторный бросок, максимальный из двух кубиков,восстановление здоровья, нанесение урона
 // Есть персонажи и сохранение/загрузка
 
-#include "libs.h"
-#include "Character.cpp"
 #include "Board.cpp"
 
 int main() {
     srand(time(NULL));
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
-    Board board(BOARD_SIZE);
-
+    Board board(BOARD_SIZE);    
     cout << "Введите имя игрока 1: ";
     string name1;
     cin >> name1;
@@ -97,6 +94,6 @@ int main() {
             cout << player1.get_name() << " победил!\n";
         }
     }
-
+    
     return 0; 
 }

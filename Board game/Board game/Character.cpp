@@ -1,3 +1,5 @@
+#pragma once
+
 #include "libs.h"
 
 // Класс для представления персонажа
@@ -76,7 +78,7 @@ public:
     void apply_bonus(Character& opponent) {
         int dice1;
         int dice2;
-        if (bonus % 5 == 0)
+        if (bonus % 5 == 0 && bonus)
             bonus = 5;
         else
             bonus %= 5;
@@ -111,6 +113,6 @@ public:
             position = rand() % BOARD_SIZE;
             break;
         }
-
+        bonus = 0;
     }
 };

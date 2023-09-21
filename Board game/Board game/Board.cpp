@@ -1,4 +1,4 @@
-#include "libs.h"
+
 #include "Character.cpp"
 // Класс для представления доски
 class Board {
@@ -7,6 +7,7 @@ private:
     int bonuses[BONUS_COUNT]; // позиции бонусов на доске 
 public:
 
+    
 
     Board(int s) {
         size = s;
